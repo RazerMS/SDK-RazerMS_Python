@@ -1,6 +1,16 @@
 ## Integrating MOLPay with Python SDK
 Version 1.0.0
 
+### Pre-Requisite
+1. Python 3.
+2. MOLPay Development or Production ID.
+3. MOLPay General API.
+
+### Installation
+#### Via File Explorer
+1. Download `MOLPayPython.zip` file.
+2. Extract the zip file. 
+
 Support
 -------
 
