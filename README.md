@@ -8,8 +8,10 @@ Version 1.0.0
 
 ### Installation
 #### Via File Explorer
-1. Download `MOLPayPython.zip` file.
-2. Extract the zip file. 
+1. Download `MOLPayPython.zip` folder.
+2. Extract the zip file.
+3. Open terminal, navigate into `MOLPayPython` folder.
+4. Run `python sdk.py` at the terminal.
 
 Support
 -------
