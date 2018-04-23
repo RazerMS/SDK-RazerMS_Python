@@ -7,7 +7,6 @@ Version 1.0.0
 3. MOLPay General API.
 
 ### Installation
-#### Via File Explorer
 1. Download `MOLPayPython.zip` folder.
 2. Extract the zip file.
 3. Open terminal, navigate into `MOLPayPython` folder.
