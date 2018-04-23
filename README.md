@@ -29,6 +29,10 @@ vkey = '' #Insert Verify Key here
 amount = '61.01' #Insert amount here
 orderid = '601' #Insert order id here
 ```
+It is not needed to set all the Endpoint URLs. If not set,by default the Endpoint URLs would be taken from Merchant Portal's End Point settings.
+```html
+<!-- Value set are examples -->
+<input type="hidden" name="returnurl" id="returnurl" value="http://127.0.0.1:5000/returnurl">
 Support
 -------
 
