@@ -18,7 +18,7 @@ Version 1.0.0
 ### Usage
 1. Set which type of enviroment with either **Sandbox** or **Production**
 ```VB.Net
-enviroment = "sandbox" ' "sandbox" or "production"
+enviroment = "sandbox"
 ```
 Support
 -------
