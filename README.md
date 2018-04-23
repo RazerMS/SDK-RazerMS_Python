@@ -53,6 +53,15 @@ Additional object must be set when using IPN
 ```Python
 treq = "1" #Value is always 1. Do not change
 ```
+Call the IPN function
+```Python
+IPN()
+```
+#### Notification & Callback URL with IPN 
+Set additional object for Notification & Callback URL 
+```Python
+nbcb=request.form.get('nbcb')
+```
 Support
 -------
 
