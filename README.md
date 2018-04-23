@@ -3,8 +3,11 @@ Version 1.0.0
 
 ### Pre-Requisite
 1. Python 3.
-2. MOLPay Development or Production ID.
-3. MOLPay General API.
+2. Flask.
+3. hashlib.
+4. pycurl.
+5. MOLPay Development or Production ID.
+6. MOLPay General API.
 
 ### Installation
 1. Download `MOLPayPython.zip` folder.
