@@ -51,7 +51,7 @@ vkey = '' #Insert Private vKey here
 #### IPN(Instant Payment Notification)
 Additional object must be set when using IPN
 ```Python
-treq = "1" 'Value is always 1. Do not change
+treq = "1" #Value is always 1. Do not change
 ```
 Support
 -------
