@@ -34,6 +34,25 @@ It is not needed to set all the Endpoint URLs. If not set,by default the Endpoin
 <!-- Value set are examples -->
 <input type="hidden" name="returnurl" id="returnurl" value="http://127.0.0.1:5000/returnurl">
 ```
+### Payment endpoint integration
+Set the values received from MOLPay's payment page.
+```Python
+tranID=request.form['tranID']
+orderid=request.form['orderid']
+status=request.form['status']
+domain=request.form['domain']
+amount=request.form['amount']
+currency=request.form['currency']
+appcode=request.form['appcode']
+paydate=request.form['paydate']
+skey=request.form['skey']
+vkey = '' #Insert Private vKey here
+```
+#### IPN(Instant Payment Notification)
+Additional object must be set when using IPN
+```Python
+treq = "1" 'Value is always 1. Do not change
+```
 Support
 -------
 
