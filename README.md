@@ -20,6 +20,15 @@ Version 1.0.0
 ```Python
 enviroment = "sandbox" #or "production"
 ```
+### Payment Page integration
+Set these needed objects that will send the buyer infromation to MOLPay hosted payment page.
+```Python
+#Value set are examples
+merchant_id = '' #Insert merchant id here
+vkey = '' #Insert Verify Key here
+amount = '61.01' #Insert amount here
+orderid = '601' #Insert order id here
+```
 Support
 -------
 
