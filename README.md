@@ -16,9 +16,9 @@ Version 1.0.0
 4. Run `python sdk.py` at the terminal.
 
 ### Usage
-1. Set which type of enviroment with either **Sandbox** or **Production**
-```VB.Net
-enviroment = "sandbox"
+1. Set which type of enviroment with either **sandbox** or **production**
+```Python
+enviroment = "sandbox" #or "production"
 ```
 Support
 -------
