@@ -15,6 +15,11 @@ Version 1.0.0
 3. Open terminal, navigate into `MOLPayPython` folder.
 4. Run `python sdk.py` at the terminal.
 
+### Usage
+1. Set which type of enviroment with either **Sandbox** or **Production**
+```VB.Net
+enviroment = "sandbox" "sandbox" or "production"
+```
 Support
 -------
 
