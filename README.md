@@ -1,5 +1,5 @@
-## Integrating MOLPay with Python SDK
 ![MOLPay Technical Teams](https://github.com/MOLPay/Prestashop_Plugin/wiki/images/molpay-developer.jpg)
+## Integrating MOLPay with Python SDK
 Version 1.0.0
 
 ### Pre-Requisite
