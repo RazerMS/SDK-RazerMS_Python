@@ -1,5 +1,5 @@
-![MOLPay Technical Teams](https://github.com/MOLPay/Prestashop_Plugin/wiki/images/molpay-developer.jpg)
-## Integrating MOLPay with Python SDK
+## Integrating Razer Merchant Services with Python SDK
+![sdk](https://user-images.githubusercontent.com/38641542/74423739-b4440a00-4e8b-11ea-8d95-016d25d26e87.jpg)
 Version 1.0.0
 
 ### Pre-Requisite
@@ -66,12 +66,12 @@ nbcb=request.form.get('nbcb')
 Support
 -------
 
-Merchant Technical Support / Customer Care : support@molpay.com <br>
-Marketing Campaign : marketing@molpay.com <br>
-Channel/Partner Enquiry : channel@molpay.com <br>
-Media Contact : media@molpay.com <br>
-R&D and Tech-related Suggestion : technical@molpay.com <br>
-Abuse Reporting : abuse@molpay.com
+Merchant Technical Support / Customer Care : support-sa@razer.com <br>
+Marketing Campaign : marketing-sa@razer.com <br>
+Channel/Partner Enquiry : channel-sa@razer.com <br>
+Media Contact : media-sa@razer.com <br>
+R&D and Tech-related Suggestion : technical-sa@razer.com <br>
+Abuse Reporting : abuse-sa@razer.com
 
 Disclaimer
 ----------
