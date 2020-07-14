@@ -11,10 +11,9 @@ Version 1.0.0
 6. MOLPay General API.
 
 ### Installation
-1. Download `MOLPayPython.zip` folder.
+1. Download `RMSPython.zip` folder.
 2. Extract the zip file.
-3. Open terminal, navigate into `MOLPayPython` folder.
-4. Run `python sdk.py` at the terminal.
+3. Run `python sdk.py` at the terminal.
 
 ### Usage
 1. Set which type of enviroment with either **sandbox** or **production**
@@ -36,7 +35,7 @@ It is not needed to set all the Endpoint URLs. If not set,by default the Endpoin
 <input type="hidden" name="returnurl" id="returnurl" value="http://127.0.0.1:5000/returnurl">
 ```
 ### Payment endpoint integration
-Set the values received from MOLPay's payment page.
+Set the values received from Razer Merchant Services's payment page.
 ```Python
 tranID=request.form['tranID']
 orderid=request.form['orderid']
