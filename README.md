@@ -1,12 +1,12 @@
 ## Integrating Razer Merchant Services with Python SDK
 ![sdk](https://user-images.githubusercontent.com/38641542/74423739-b4440a00-4e8b-11ea-8d95-016d25d26e87.jpg)
-Version 1.0.0
+Version 1.1.0
 
 ### Pre-Requisite
 1. Python 3.
 2. Flask.
 3. hashlib.
-4. pycurl.
+4. requests.
 5. MOLPay Development or Production ID.
 6. MOLPay General API.
 
@@ -55,7 +55,7 @@ treq = "1" #Value is always 1. Do not change
 ```
 Call the IPN function
 ```Python
-IPN()
+IPN( postdata )
 ```
 #### Notification & Callback URL with IPN 
 Set additional object for Notification & Callback URL 
@@ -78,4 +78,5 @@ Any amendment by your end is at your own risk.
 
 Changelog
 ----------
-1. 2018-04-23 - v1.0.0 - Initial Release
+1. 2021-10-14 - v1.1.0 - Deprecated use of PyCurl in favor of python `requests`
+2. 2018-04-23 - v1.0.0 - Initial Release
