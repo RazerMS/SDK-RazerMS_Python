@@ -1,5 +1,5 @@
-## Integrating Razer Merchant Services with Python SDK
-![sdk](https://user-images.githubusercontent.com/38641542/74423739-b4440a00-4e8b-11ea-8d95-016d25d26e87.jpg)
+## [Mobile XDK] – RazerMS Python
+![sdk](https://user-images.githubusercontent.com/38641542/74423739-b4440a00-4e8b-11ea-8d95-016d25d26e87.jpg)<br>
 Version 1.0.0
 
 ### Pre-Requisite
@@ -10,58 +10,13 @@ Version 1.0.0
 5. MOLPay Development or Production ID.
 6. MOLPay General API.
 
-### Installation
-1. Download `RMSPython.zip` folder.
-2. Extract the zip file.
-3. Run `python sdk.py` at the terminal.
+### Installation Guidance
+[Installation](https://github.com/RazerMS/Python-SDK/wiki/Installation-Guidance)
 
-### Usage
-1. Set which type of enviroment with either **sandbox** or **production**
-```Python
-enviroment = "sandbox" #or "production"
-```
-### Payment Page integration
-Set these needed objects that will send the buyer infromation to MOLPay hosted payment page.
-```Python
-#Value set are examples
-merchant_id = '' #Insert merchant id here
-vkey = '' #Insert Verify Key here
-amount = '61.01' #Insert amount here
-orderid = '601' #Insert order id here
-```
-It is not needed to set all the Endpoint URLs. If not set,by default the Endpoint URLs would be taken from Merchant Portal's End Point settings.
-```html
-<!-- Value set are examples -->
-<input type="hidden" name="returnurl" id="returnurl" value="http://127.0.0.1:5000/returnurl">
-```
-### Payment endpoint integration
-Set the values received from Razer Merchant Services's payment page.
-```Python
-tranID=request.form['tranID']
-orderid=request.form['orderid']
-status=request.form['status']
-domain=request.form['domain']
-amount=request.form['amount']
-currency=request.form['currency']
-appcode=request.form['appcode']
-paydate=request.form['paydate']
-skey=request.form['skey']
-vkey = '' #Insert Private vKey here
-```
-#### IPN(Instant Payment Notification)
-Additional object must be set when using IPN
-```Python
-treq = "1" #Value is always 1. Do not change
-```
-Call the IPN function
-```Python
-IPN()
-```
-#### Notification & Callback URL with IPN 
-Set additional object for Notification & Callback URL 
-```Python
-nbcb=request.form.get('nbcb')
-```
+Changelog
+----------
+1. 2018-04-23 - v1.0.0 - Initial Release
+
 Support
 -------
 
@@ -76,6 +31,4 @@ Disclaimer
 ----------
 Any amendment by your end is at your own risk.
 
-Changelog
-----------
-1. 2018-04-23 - v1.0.0 - Initial Release
+
